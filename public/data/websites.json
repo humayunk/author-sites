@@ -4,69 +4,79 @@
     "authorName": "Stephen King",
     "siteImage": "/images/stephenking.png",
     "siteUrl": "https://www.stephenking.com",
-    "genre": "Horror"
+    "genre": "Horror",
+    "bio": "Stephen King is an American author of horror, supernatural fiction, suspense, and fantasy novels. His books have sold more than 350 million copies, and many have been adapted into films, television series, miniseries, and comic books."
   },
   {
     "id": 2,
     "authorName": "Margaret Atwood",
     "siteImage": "/images/margaretatwood.png",
     "siteUrl": "https://margaretatwood.ca",
-    "genre": "Fiction"
+    "genre": "Fiction",
+    "bio": "Margaret Atwood is a Canadian poet, novelist, literary critic, essayist, teacher, environmental activist, and inventor. She is best known for her works of speculative fiction, including 'The Handmaid's Tale' and 'Oryx and Crake'."
   },
   {
     "id": 3,
     "authorName": "J.K. Rowling",
     "siteImage": "/images/jkrowling.png",
     "siteUrl": "https://www.jkrowling.com",
-    "genre": "Fantasy"
+    "genre": "Fantasy",
+    "bio": "J.K. Rowling is a British author, best known for writing the Harry Potter fantasy series. The books have won multiple awards, sold more than 500 million copies, and have been the basis for a popular film series."
   },
   {
     "id": 4,
     "authorName": "James Patterson",
     "siteImage": "/images/jamespatterson.png",
     "siteUrl": "https://www.jamespatterson.com",
-    "genre": "Thriller"
+    "genre": "Thriller",
+    "bio": "James Patterson is an American author and philanthropist. He is known for his thrillers and has created enduring fictional characters such as Alex Cross, Michael Bennett, and Women's Murder Club."
   },
   {
     "id": 5,
     "authorName": "Danielle Steel",
     "siteImage": "/images/daniellesteel.png",
     "siteUrl": "https://www.daniellesteel.com",
-    "genre": "Romance"
+    "genre": "Romance",
+    "bio": "Danielle Steel is an American writer, best known for her romance novels. With over 800 million copies sold, she is one of the world's best-selling authors and is best known for books such as 'The Promise' and 'Kaleidoscope'."
   },
   {
     "id": 6,
     "authorName": "John Grisham",
     "siteImage": "/images/johngrisham.png",
     "siteUrl": "https://www.jgrisham.com",
-    "genre": "Legal Thriller"
+    "genre": "Legal Thriller",
+    "bio": "John Grisham is an American novelist, attorney, politician, and activist, best known for his popular legal thrillers. His books have been translated into 42 languages and published worldwide."
   },
   {
     "id": 7,
     "authorName": "Nora Roberts",
     "siteImage": "/images/noraroberts.png",
     "siteUrl": "https://www.noraroberts.com",
-    "genre": "Romance"
+    "genre": "Romance",
+    "bio": "Nora Roberts is an American author of more than 225 romance novels. She writes as J.D. Robb for the 'In Death' series, and has also written under the pseudonyms Jill March and Sarah Hardesty."
   },
   {
     "id": 8,
     "authorName": "Michael Connelly",
     "siteImage": "/images/michaelconnelly.png",
     "siteUrl": "https://www.michaelconnelly.com",
-    "genre": "Mystery"
+    "genre": "Mystery",
+    "bio": "Michael Connelly is an American author of detective novels and other crime fiction. He is best known for his series of novels featuring LAPD Detective Hieronymus 'Harry' Bosch."
   },
   {
     "id": 9,
     "authorName": "Neil Gaiman",
     "siteImage": "/images/neilgaiman.png",
     "siteUrl": "https://www.neilgaiman.com",
-    "genre": "Fantasy"
+    "genre": "Fantasy",
+    "bio": "Neil Gaiman is an English author of short fiction, novels, comic books, graphic novels, audio theatre, and films. He is best known for his works such as 'Coraline', 'American Gods', and 'The Sandman' series."
   },
   {
     "id": 10,
     "authorName": "Paulo Coelho",
     "siteImage": "/images/paulocoelho.png",
     "siteUrl": "https://www.paulocoelho.com",
-    "genre": "Fiction"
+    "genre": "Fiction",
+    "bio": "Paulo Coelho is a Brazilian lyricist and novelist, best known for his novel 'The Alchemist'. His works have been translated into 81 languages and sold more than 225 million copies worldwide."
   }
 ]

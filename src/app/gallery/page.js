@@ -40,7 +40,7 @@ export default function Gallery() {
     <>
       <Header />
       <HeaderSection />
-      <div className="container mx-auto p-4 bg-white">
+      <div className="container mx-auto p-4">
         <FilterButtons genres={genres} selectedGenre={selectedGenre} onGenreChange={handleGenreChange} />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-4">
           {filteredWebsites.map((site) => (
