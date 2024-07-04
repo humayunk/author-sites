@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "authorName": "Stephen King",
+    "siteImage": "/images/stephenking.png",
+    "siteUrl": "https://www.stephenking.com",
+    "genre": "Horror"
+  },
+  {
+    "id": 2,
+    "authorName": "Margaret Atwood",
+    "siteImage": "/images/margaretatwood.png",
+    "siteUrl": "https://margaretatwood.ca",
+    "genre": "Fiction"
+  },
+  {
+    "id": 3,
+    "authorName": "J.K. Rowling",
+    "siteImage": "/images/jkrowling.png",
+    "siteUrl": "https://www.jkrowling.com",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 4,
+    "authorName": "James Patterson",
+    "siteImage": "/images/jamespatterson.png",
+    "siteUrl": "https://www.jamespatterson.com",
+    "genre": "Thriller"
+  },
+  {
+    "id": 5,
+    "authorName": "Danielle Steel",
+    "siteImage": "/images/daniellesteel.png",
+    "siteUrl": "https://www.daniellesteel.com",
+    "genre": "Romance"
+  },
+  {
+    "id": 6,
+    "authorName": "John Grisham",
+    "siteImage": "/images/johngrisham.png",
+    "siteUrl": "https://www.jgrisham.com",
+    "genre": "Legal Thriller"
+  },
+  {
+    "id": 7,
+    "authorName": "Nora Roberts",
+    "siteImage": "/images/noraroberts.png",
+    "siteUrl": "https://www.noraroberts.com",
+    "genre": "Romance"
+  },
+  {
+    "id": 8,
+    "authorName": "Michael Connelly",
+    "siteImage": "/images/michaelconnelly.png",
+    "siteUrl": "https://www.michaelconnelly.com",
+    "genre": "Mystery"
+  },
+  {
+    "id": 9,
+    "authorName": "Neil Gaiman",
+    "siteImage": "/images/neilgaiman.png",
+    "siteUrl": "https://www.neilgaiman.com",
+    "genre": "Fantasy"
+  },
+  {
+    "id": 10,
+    "authorName": "Paulo Coelho",
+    "siteImage": "/images/paulocoelho.png",
+    "siteUrl": "https://www.paulocoelho.com",
+    "genre": "Fiction"
+  }
+]
