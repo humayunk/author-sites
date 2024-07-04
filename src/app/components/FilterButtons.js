@@ -5,7 +5,7 @@ export default function FilterButtons({ genres, selectedGenre, onGenreChange }) 
     <div className="flex justify-center space-x-4 pb-4">
       <button
         className={`px-6 py-2 rounded-full font-sans border-1 ${
-          selectedGenre === 'All' ? 'bg-cyan-500 text-white border-cyan-500' : 'bg-transparent text-gray-700 border-gray-300'
+          selectedGenre === 'All' ? 'bg-cyan-500 text-white border-cyan-500' : 'bg-transparent text-gray-700 border-gray-300 border-2'
         }`}
         onClick={() => onGenreChange('All')}
       >
