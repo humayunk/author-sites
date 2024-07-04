@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { useState, useEffect } from 'react';
 import Header from '../components/Header';
@@ -12,7 +12,6 @@ export default function Gallery() {
   const [filteredWebsites, setFilteredWebsites] = useState([]);
   const [selectedGenre, setSelectedGenre] = useState('All');
   const [genres, setGenres] = useState([]);
-  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     fetch('/data/websites.json')
@@ -26,33 +25,20 @@ export default function Gallery() {
   }, []);
 
   useEffect(() => {
-    let filtered = websites;
-
-    if (selectedGenre !== 'All') {
-      filtered = filtered.filter((site) => site.genre === selectedGenre);
+    if (selectedGenre === 'All') {
+      setFilteredWebsites(websites);
+    } else {
+      setFilteredWebsites(websites.filter((site) => site.genre === selectedGenre));
     }
-
-    if (searchQuery) {
-      filtered = filtered.filter((site) =>
-        site.authorName.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        site.genre.toLowerCase().includes(searchQuery.toLowerCase())
-      );
-    }
-
-    setFilteredWebsites(filtered);
-  }, [selectedGenre, searchQuery, websites]);
+  }, [selectedGenre, websites]);
 
   const handleGenreChange = (genre) => {
     setSelectedGenre(genre);
   };
 
-  const handleSearchChange = (query) => {
-    setSearchQuery(query);
-  };
-
   return (
     <>
-      <Header onSearchChange={handleSearchChange} />
+      <Header />
       <HeaderSection />
       <div className="container mx-auto p-4 bg-white">
         <FilterButtons genres={genres} selectedGenre={selectedGenre} onGenreChange={handleGenreChange} />
