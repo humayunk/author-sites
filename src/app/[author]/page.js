@@ -27,7 +27,7 @@ export default function Detail() {
       <DetailHeader />
       <div className="container mx-auto p-4 grid grid-cols-1 lg:grid-cols-3 gap-8 mt-4">
         <div className="lg:col-span-2">
-          <img src={site.siteImage} alt={site.authorName} className="w-full h-auto object-cover rounded-lg mb-4 font-serif" />
+          <img src={site.siteImage} alt={site.authorName} className="w-full h-auto object-cover rounded-lg mb-4 shadow-md" />
         </div>
         <div className="lg:col-span-1 flex flex-col gap-4">
           <div className="bg-white py-8 px-6 rounded-lg shadow-md">
