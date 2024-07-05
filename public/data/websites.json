@@ -78,5 +78,215 @@
     "siteUrl": "https://www.paulocoelho.com",
     "genre": "Fiction",
     "bio": "Paulo Coelho is a Brazilian lyricist and novelist, best known for his novel 'The Alchemist'. His works have been translated into 81 languages and sold more than 225 million copies worldwide."
+  },
+  {
+    "id": 11,
+    "authorName": "Gillian Flynn",
+    "siteImage": "/images/gillianflynn.png",
+    "siteUrl": "https://gillian-flynn.com",
+    "genre": "Thriller",
+    "bio": "Gillian Flynn is an American author, known for her novels 'Gone Girl', 'Sharp Objects', and 'Dark Places', all of which have been adapted into successful films or TV series."
+  },
+  {
+    "id": 12,
+    "authorName": "Haruki Murakami",
+    "siteImage": "/images/harukimurakami.png",
+    "siteUrl": "https://www.harukimurakami.com",
+    "genre": "Fiction",
+    "bio": "Haruki Murakami is a Japanese writer known for his surreal and melancholic novels, including 'Norwegian Wood', 'Kafka on the Shore', and '1Q84'."
+  },
+  {
+    "id": 13,
+    "authorName": "Chimamanda Ngozi Adichie",
+    "siteImage": "/images/chimamandaadichie.png",
+    "siteUrl": "https://www.chimamanda.com",
+    "genre": "Fiction",
+    "bio": "Chimamanda Ngozi Adichie is a Nigerian writer known for her novels 'Half of a Yellow Sun', 'Americanah', and 'Purple Hibiscus'."
+  },
+  {
+    "id": 14,
+    "authorName": "Elena Ferrante",
+    "siteImage": "/images/elenaferrante.png",
+    "siteUrl": "https://elenaferrante.com",
+    "genre": "Fiction",
+    "bio": "Elena Ferrante is an Italian novelist, known for her 'Neapolitan Novels' series, which includes 'My Brilliant Friend' and 'The Story of a New Name'."
+  },
+  {
+    "id": 15,
+    "authorName": "Brandon Sanderson",
+    "siteImage": "/images/brandonsanderson.png",
+    "siteUrl": "https://www.brandonsanderson.com",
+    "genre": "Fantasy",
+    "bio": "Brandon Sanderson is an American author of epic fantasy and science fiction, best known for his 'Mistborn' series and his work on the 'Wheel of Time' series."
+  },
+  {
+    "id": 16,
+    "authorName": "Rupi Kaur",
+    "siteImage": "/images/rupikaur.png",
+    "siteUrl": "https://www.rupikaur.com",
+    "genre": "Poetry",
+    "bio": "Rupi Kaur is a Canadian poet, illustrator, and author, known for her collections 'Milk and Honey' and 'The Sun and Her Flowers'."
+  },
+  {
+    "id": 17,
+    "authorName": "Colson Whitehead",
+    "siteImage": "/images/colsonwhitehead.png",
+    "siteUrl": "https://www.colsonwhitehead.com",
+    "genre": "Fiction",
+    "bio": "Colson Whitehead is an American novelist, known for his books 'The Underground Railroad', which won the Pulitzer Prize, and 'The Nickel Boys'."
+  },
+  {
+    "id": 18,
+    "authorName": "Celeste Ng",
+    "siteImage": "/images/celesteng.png",
+    "siteUrl": "https://www.celesteng.com",
+    "genre": "Fiction",
+    "bio": "Celeste Ng is an American author known for her novels 'Everything I Never Told You' and 'Little Fires Everywhere', which was adapted into a television series."
+  },
+  {
+    "id": 19,
+    "authorName": "John Green",
+    "siteImage": "/images/johngreen.png",
+    "siteUrl": "https://www.johngreenbooks.com",
+    "genre": "Young Adult",
+    "bio": "John Green is an American author and YouTube content creator, known for his novels 'The Fault in Our Stars' and 'Looking for Alaska'."
+  },
+  {
+    "id": 21,
+    "authorName": "Tayari Jones",
+    "siteImage": "/images/tayarijones.png",
+    "siteUrl": "https://www.tayarijones.com",
+    "genre": "Fiction",
+    "bio": "Tayari Jones is an American author known for her novel 'An American Marriage', which won the Women's Prize for Fiction."
+  },
+  {
+    "id": 23,
+    "authorName": "David Mitchell",
+    "siteImage": "/images/davidmitchell.png",
+    "siteUrl": "https://www.davidmitchellbooks.com",
+    "genre": "Fiction",
+    "bio": "David Mitchell is an English novelist known for his novels 'Cloud Atlas' and 'The Bone Clocks'."
+  },
+  {
+    "id": 24,
+    "authorName": "Jennifer Egan",
+    "siteImage": "/images/jenniferegan.png",
+    "siteUrl": "https://www.jenniferegan.com",
+    "genre": "Fiction",
+    "bio": "Jennifer Egan is an American novelist and short story writer, known for her novel 'A Visit from the Goon Squad', which won the Pulitzer Prize for Fiction."
+  },
+  {
+    "id": 28,
+    "authorName": "Ali Smith",
+    "siteImage": "/images/alismith.png",
+    "siteUrl": "https://www.alismith.com",
+    "genre": "Fiction",
+    "bio": "Ali Smith is a Scottish author known for her novels 'How to be both', 'Autumn', 'Winter', 'Spring', and 'Summer'."
+  },
+  {
+    "id": 29,
+    "authorName": "Ocean Vuong",
+    "siteImage": "/images/oceanvuong.png",
+    "siteUrl": "https://www.oceanvuong.com",
+    "genre": "Poetry",
+    "bio": "Ocean Vuong is a Vietnamese-American poet, essayist, and novelist, known for his poetry collection 'Night Sky with Exit Wounds' and his novel 'On Earth We're Briefly Gorgeous'."
+  },
+  {
+    "id": 30,
+    "authorName": "Madeline Miller",
+    "siteImage": "/images/madelinemiller.png",
+    "siteUrl": "https://www.madelinemiller.com",
+    "genre": "Historical Fiction",
+    "bio": "Madeline Miller is an American novelist known for her retellings of classical myths, including 'The Song of Achilles' and 'Circe'."
+  },
+  {
+    "id": 32,
+    "authorName": "Rebecca Makkai",
+    "siteImage": "/images/rebeccamakkai.png",
+    "siteUrl": "https://www.rebeccamakkai.com",
+    "genre": "Fiction",
+    "bio": "Rebecca Makkai is an American novelist and short story writer, known for her novels 'The Great Believers' and 'The Hundred-Year House'."
+  },
+  {
+    "id": 35,
+    "authorName": "Angie Thomas",
+    "siteImage": "/images/angiethomas.png",
+    "siteUrl": "https://www.angiethomas.com",
+    "genre": "Young Adult",
+    "bio": "Angie Thomas is an American author known for her debut novel 'The Hate U Give', which was adapted into a successful film."
+  },
+  {
+    "id": 36,
+    "authorName": "Brit Bennett",
+    "siteImage": "/images/britbennett.png",
+    "siteUrl": "https://www.britbennett.com",
+    "genre": "Fiction",
+    "bio": "Brit Bennett is an American author known for her novels 'The Mothers' and 'The Vanishing Half'."
+  },
+  {
+    "id": 37,
+    "authorName": "Roxane Gay",
+    "siteImage": "/images/roxanegay.png",
+    "siteUrl": "https://www.roxanegay.com",
+    "genre": "Non-Fiction",
+    "bio": "Roxane Gay is an American writer, professor, and commentator, known for her essay collection 'Bad Feminist' and her memoir 'Hunger'."
+  },
+  {
+    "id": 39,
+    "authorName": "N.K. Jemisin",
+    "siteImage": "/images/nkjemisin.png",
+    "siteUrl": "https://www.nkjemisin.com",
+    "genre": "Science Fiction",
+    "bio": "N.K. Jemisin is an American science fiction and fantasy writer, known for her 'Broken Earth' trilogy, which won three consecutive Hugo Awards."
+  },
+  {
+    "id": 45,
+    "authorName": "Ijeoma Oluo",
+    "siteImage": "/images/ijeomaoluo.png",
+    "siteUrl": "https://www.ijeomaoluo.com",
+    "genre": "Non-Fiction",
+    "bio": "Ijeoma Oluo is an American writer and speaker, known for her book 'So You Want to Talk About Race', which explores race relations in America."
+  },
+  {
+    "id": 46,
+    "authorName": "Lauren Groff",
+    "siteImage": "/images/laurengroff.png",
+    "siteUrl": "https://www.laurengroff.com",
+    "genre": "Fiction",
+    "bio": "Lauren Groff is an American novelist and short story writer, known for her books 'Fates and Furies' and 'Florida'."
+  },
+
+  {
+    "id": 48,
+    "authorName": "Kevin Kwan",
+    "siteImage": "/images/kevinkwan.png",
+    "siteUrl": "https://www.kevinkwanbooks.com",
+    "genre": "Fiction",
+    "bio": "Kevin Kwan is a Singaporean-American novelist, known for his satirical novels 'Crazy Rich Asians', 'China Rich Girlfriend', and 'Rich People Problems'."
+  },
+  {
+    "id": 49,
+    "authorName": "Valeria Luiselli",
+    "siteImage": "/images/valerialuiselli.png",
+    "siteUrl": "https://www.valerialuiselli.com",
+    "genre": "Fiction",
+    "bio": "Valeria Luiselli is a Mexican author known for her novels 'The Story of My Teeth' and 'Lost Children Archive'."
+  },
+  {
+    "id": 50,
+    "authorName": "Imbolo Mbue",
+    "siteImage": "/images/imbolombue.png",
+    "siteUrl": "https://www.imbolombue.com",
+    "genre": "Fiction",
+    "bio": "Imbolo Mbue is a Cameroonian-American author, known for her debut novel 'Behold the Dreamers', which won the PEN/Faulkner Award for Fiction."
+  },
+  {
+    "id": 51,
+    "authorName": "H.N. Khan",
+    "siteImage": "/images/hnkhan.png",
+    "siteUrl": "https://www.hnkhan.com",
+    "genre": "Young Adult",
+    "bio": "H.N. KHAN is a Pakistani-Canadian author, known for his debut novel Wrong Side of the Court. He immigrated to Canada at age seven and grew up in Regent Park, a low-income community housing project, where the novel is set."
   }
+
 ]
