@@ -19,6 +19,19 @@ export default function RootLayout({ children }) {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
         <meta name="theme-color" content="#ffffff" />
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="Author Website Examples" />
+        <meta property="og:description" content="The best author website examples for design inspiration." />
+        <meta property="og:image" content="https://authorwebsites.co/preview-image.png" />
+        <meta property="og:url" content="https://authorwebsites.co" />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Author Website Examples" />
+        <meta name="twitter:description" content="The best author website examples for design inspiration." />
+        <meta name="twitter:image" content="https://authorwebsites.co/preview-image.png" />
       </head>
       <body className="bg-customBg">
         {children}
