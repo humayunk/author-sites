@@ -6,18 +6,23 @@ import DetailHeader from '../components/DetailHeader';
 import { createSlug } from '../utils/utils';
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
 import Footer from '../components/Footer';
+import { fetchAuthors } from '../utils/contentful';
 
 export default function Detail() {
   const { author } = useParams();
   const [site, setSite] = useState(null);
 
   useEffect(() => {
-    fetch('/data/websites.json')
-      .then(response => response.json())
-      .then(data => {
-        const siteData = data.find((site) => createSlug(site.authorName) === author);
+    async function loadAuthor() {
+      try {
+        const authors = await fetchAuthors();
+        const siteData = authors.find((site) => site.slug === author);
         setSite(siteData);
-      });
+      } catch (error) {
+        console.error('Error loading author:', error);
+      }
+    }
+    loadAuthor();
   }, [author]);
 
   if (!site) return <div>Loading...</div>;

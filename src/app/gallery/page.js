@@ -7,6 +7,7 @@ import HeaderSection from '../components/HeaderSection';
 import AuthorSiteCard from '../components/AuthorSiteCard';
 import FilterButtons from '../components/FilterButtons';
 import Footer from '../components/Footer';
+import { fetchAuthors } from '../utils/contentful';
 
 export default function Gallery() {
   const [websites, setWebsites] = useState([]);
@@ -19,15 +20,28 @@ export default function Gallery() {
   });
 
   useEffect(() => {
-    fetch('/data/websites.json')
-      .then((response) => response.json())
-      .then((data) => {
-        setWebsites(data);
-        setFilteredWebsites(data);
-        const uniqueGenres = Array.from(new Set(data.map((site) => site.genre)));
+    async function loadAuthors() {
+      try {
+        const authors = await fetchAuthors();
+        console.log('Authors fetched:', authors);
+        if (authors.length === 0) {
+          console.warn('No authors fetched from Contentful');
+        }
+        setWebsites(authors);
+        setFilteredWebsites(authors);
+        const uniqueGenres = Array.from(new Set(authors.map((site) => site.genre))).filter(Boolean);
+        console.log('Unique genres:', uniqueGenres);
         setGenres(uniqueGenres);
-      });
+      } catch (error) {
+        console.error('Error loading authors:', error);
+      }
+    }
+    loadAuthors();
   }, []);
+
+  useEffect(() => {
+    console.log('Current genres:', genres);
+  }, [genres]);
 
   useEffect(() => {
     if (selectedGenre) {

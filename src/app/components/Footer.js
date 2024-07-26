@@ -37,7 +37,7 @@ export default function Example() {
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
           <p className="text-center text-sm leading-5 text-stone-600">
-            &copy; Made with ❤️ by Humayun Khan, Design Engineer & Author.
+            &copy; Made with ❤️ by Humayun Khan, Designer, Developer, & Author.
           </p>
         </div>
       </div>

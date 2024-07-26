@@ -1,15 +1,16 @@
 import Link from 'next/link';
-import { createSlug } from '../utils/utils';
 import { EyeIcon } from '@heroicons/react/24/solid';
 
 export default function AuthorSiteCard({ site }) {
+  if (!site) return null;
+
   return (
     <div className="relative group">
-      <Link href={`/${createSlug(site.authorName)}`} className="block rounded-lg overflow-hidden border border-stone-200 hover:shadow-lg transition">
+      <Link href={`/${site.slug}`} className="block rounded-lg overflow-hidden border border-stone-200 hover:shadow-lg transition">
         <div className="relative">
           <img
-            src={site.siteImage}
-            alt={site.authorName}
+            src={site.siteImage || '/placeholder-image.jpg'}
+            alt={site.authorName || 'Author'}
             className="w-full h-64 object-cover object-top"
           />
           <div className="absolute inset-0 bg-stone-600 bg-opacity-0 group-hover:bg-opacity-30 transition-opacity duration-300"></div>
@@ -18,7 +19,7 @@ export default function AuthorSiteCard({ site }) {
           </div>
         </div>
       </Link>
-      <h2 className="text-xl font-bold font-serif mt-4">{site.authorName}</h2>
+      <h2 className="text-xl font-bold font-serif mt-4">{site.authorName || 'Unknown Author'}</h2>
     </div>
   );
 }
