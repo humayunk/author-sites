@@ -37,7 +37,7 @@ export default function Detail() {
             <a href={site.siteUrl} target="_blank" rel="noopener noreferrer">
               <button
                 type="button"
-                className="flex items-center justify-center rounded-full bg-cyan-500 px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-cyan-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-500 w-full"
+                className="flex items-center justify-center rounded-lg bg-rose-500 px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-rose-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-500 w-full"
               >
                 <ArrowTopRightOnSquareIcon className="w-4 h-4 mr-2" />
                 Visit Website
