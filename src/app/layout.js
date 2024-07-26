@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  title: "Author Website Examples",
+  title: "Author Websites",
   description: "The best author website examples for design inspiration.",
 };
 
@@ -9,8 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link href="https://fonts.googleapis.com/css2?family=Wittgenstein:wght@400&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600;700&display=swap" rel="stylesheet" />
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
@@ -33,7 +32,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:description" content="The best author website examples for design inspiration." />
         <meta name="twitter:image" content="https://authorwebsites.co/preview-image.png" />
       </head>
-      <body className="bg-customBg">
+      <body className="bg-white">
         {children}
       </body>
     </html>

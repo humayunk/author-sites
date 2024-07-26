@@ -11,7 +11,7 @@ import Footer from '../components/Footer';
 export default function Gallery() {
   const [websites, setWebsites] = useState([]);
   const [filteredWebsites, setFilteredWebsites] = useState([]);
-  const [selectedGenre, setSelectedGenre] = useState('All');
+  const [selectedGenre, setSelectedGenre] = useState(null);
   const [genres, setGenres] = useState([]);
   const [visibleWebsites, setVisibleWebsites] = useState(6); // Number of items to load initially
   const { ref, inView } = useInView({
@@ -30,10 +30,10 @@ export default function Gallery() {
   }, []);
 
   useEffect(() => {
-    if (selectedGenre === 'All') {
-      setFilteredWebsites(websites);
-    } else {
+    if (selectedGenre) {
       setFilteredWebsites(websites.filter((site) => site.genre === selectedGenre));
+    } else {
+      setFilteredWebsites(websites);
     }
     setVisibleWebsites(10); // Reset the visible items count when the genre changes
   }, [selectedGenre, websites]);
@@ -45,7 +45,7 @@ export default function Gallery() {
   }, [inView]);
 
   const handleGenreChange = (genre) => {
-    setSelectedGenre(genre);
+    setSelectedGenre(prevGenre => prevGenre === genre ? null : genre);
   };
 
   return (
@@ -54,7 +54,7 @@ export default function Gallery() {
       <HeaderSection />
       <div className="container mx-auto p-4">
         <FilterButtons genres={genres} selectedGenre={selectedGenre} onGenreChange={handleGenreChange} />
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-4">
           {filteredWebsites.slice(0, visibleWebsites).map((site) => (
             <AuthorSiteCard key={site.id} site={site} />
           ))}

@@ -13,8 +13,8 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        serif: ['Wittgenstein', 'serif'],
-        sans: ['Open Sans', 'sans-serif'],
+        sans: ['Cormorant', 'serif'], // Set Cormorant as the default sans-serif font
+        serif: ['Cormorant', 'serif'], // Set Cormorant as the default serif font
       },
       colors: {
         customBg: '#F9F9F4',
